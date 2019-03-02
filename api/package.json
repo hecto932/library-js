@@ -1,0 +1,36 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "A simple javascript API for books",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecto932/library-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "express.js",
+    "node.js"
+  ],
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecto932/library-js/issues"
+  },
+  "homepage": "https://github.com/hecto932/library-js#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "sequelize": "^4.42.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10"
+  }
+}
