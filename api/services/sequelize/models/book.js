@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const setupDatabase = require('../db');
+const setupDatabase = require('..');
 
 module.exports = function setupBookModel (config) {
   const sequelize = setupDatabase(config)
@@ -19,7 +19,7 @@ module.exports = function setupBookModel (config) {
       allowNull: false
     },
     price: {
-      type: Sequelize.FLOAT(16,2),
+      type: 'numeric',
       allowNull: false
     }
   },{

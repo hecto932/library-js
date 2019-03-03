@@ -1,1 +1,0 @@
-const setupDatabase = require('./sequelize');
